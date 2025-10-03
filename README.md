@@ -13,12 +13,19 @@ https://pub.dev/packages/flutter_chat_ui
 
 developブランチを参照してください。
 
-リポジトリ取得後、ビルドエラーが出て実行できない場合は以下を試してください
+### リポジトリ取得後、ビルドエラーが出て実行できない場合は以下を試してください
 
-chantsample/iosフォルダ以下で下の2つのコマンドを順次実行してCocoapodファイルを更新
+- chantsample/iosフォルダ以下で下の2つのコマンドを順次実行してCocoapodファイルを更新
 ~~~
 pod cache clean --all
 ~~~
 ~~~
 pod update  
+~~~
+
+### 上記でもまだダメな場合以下を試す
+- flutter環境更新  chantsample/以下で以下のコマンドを実行
+
+~~~
+flutter doctor
 ~~~
