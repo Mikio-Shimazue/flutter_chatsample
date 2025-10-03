@@ -12,3 +12,13 @@ https://pub.dev/packages/flutter_chat_ui
 ・メッセージコピー・ペースト
 
 developブランチを参照してください。
+
+リポジトリ取得後、ビルドエラーが出て実行できない場合は以下を試してください
+
+chantsample/iosフォルダ以下で
+~~~
+pod cache clean --all
+~~~
+~~~
+pod update  
+~~~
