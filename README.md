@@ -10,3 +10,5 @@ https://pub.dev/packages/flutter_chat_ui
 ・ログイン
 ・ルーム別チャット管理
 ・メッセージコピー・ペースト
+
+developブランチを参照してください。
