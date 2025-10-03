@@ -197,12 +197,12 @@ class _ChatRoomState extends State<ChatRoomPage> {
           sentMessageBodyTextStyle: chatMessageTextStyle,
           receivedMessageBodyTextStyle: chatMessageTextStyle,
           //  チャット右側吹出し背景色
-          primaryColor: Color(0xFFFFFFFF),
+          primaryColor: Color.fromARGB(255, 136, 229, 153),
           //  チャット左側吹出し背景色
-          secondaryColor: Color(0xFFFFFFFF),
+          secondaryColor: Color.fromARGB(255, 234, 188, 188),
           attachmentButtonIcon: Icon(Icons.add),
           //  Message Input Tab leftSide
-          inputTextColor: Color(0xFF00000000), //  入力文字色
+          inputTextColor: Color(0xFF000000), //  入力文字色
         ),
         //  ユーザーの名前を表示するかどうか
         showUserNames: true,
