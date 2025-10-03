@@ -15,7 +15,7 @@ developブランチを参照してください。
 
 リポジトリ取得後、ビルドエラーが出て実行できない場合は以下を試してください
 
-chantsample/iosフォルダ以下で
+chantsample/iosフォルダ以下で下の2つのコマンドを順次実行してCocoapodファイルを更新
 ~~~
 pod cache clean --all
 ~~~
